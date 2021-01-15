@@ -24,8 +24,8 @@ public class S3BucketUtility {
 	// AWS S3 bucket configuration
 	private AmazonS3 s3client;
 	private String endpointUrl = "https://s3.ap-south-1.amazonaws.com";
-	private String secretKey = "9IW69uFzkB1UjAfWC2SltLTG3b13b0Z9YuECrSxm";
-	private String accessKey = "AKIARYKYF6XZ63ONBLRP";
+	private String secretKey = "";
+	private String accessKey = "";
 	private String bucketName = "demoforauction/images";
 
 	// Initializing AWS
